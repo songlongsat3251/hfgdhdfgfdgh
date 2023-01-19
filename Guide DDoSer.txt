@@ -1,0 +1,10 @@
+         python DDoSer.py VictimWebsite Port / Socks.txt
+
+Meaning: python DDoSer.py VictimWebsite Port(443 or 80) / Path(Socks.txt)
+
+If you want to atack to index.html:
+         python DDoSer.py VictimWebsite Port /index.html Socks.txt
+
+## Before use, run this command:
+pip install requests
+pip install python_socks
